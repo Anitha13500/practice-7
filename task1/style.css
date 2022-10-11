@@ -1,0 +1,19 @@
+.content p{
+	color:blue;
+	margin-top:3rem;
+	text-align:center;
+}
+.content h3{
+	color:#061e66;
+	text-align:center;
+}
+.card img{
+	height:37vh;
+}
+.card-body h5{
+	color:00185a;
+	
+}
+.card-body p{
+	color:7d6868;
+}
