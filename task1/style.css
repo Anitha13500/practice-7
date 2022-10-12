@@ -7,13 +7,31 @@
 	color:#061e66;
 	text-align:center;
 }
-.card img{
-	height:37vh;
-}
 .card-body h5{
 	color:00185a;
 	
 }
 .card-body p{
 	color:7d6868;
+}
+.col img{
+	width:100%;
+}
+
+.col iconify-icon{
+	font-size:1.2rem;
+	color:#061e66;
+	background-color:lightblue;
+}
+.col p {
+	font-size:1.2rem;
+}
+.contents p{
+	color:blue;
+	margin-top:1rem;
+	text-align:center;
+}
+.contents h3{
+	color:#061e66;
+	text-align:center;
 }
