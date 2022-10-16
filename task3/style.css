@@ -5,53 +5,50 @@
 .content h5{
 	color:blue;
 }
-.content h1{
-	color:#061e66;
-}
-.col{
-	width:24%;
+
+.card{
+	width:100%;
 	border:1px solid black;
 	padding:2rem;
 	text-align:center;
 	margin:auto;
 	align-items:center;
 }
-.col h5{
+.card h5{
 	text-align:center;
 	margin-top:1rem;
 }
-.col h3{
+.card h3{
 	text-align:center;
 }
-.col img{
+.card img{
 	width:100%;
 	margin-top:1rem;
 	
 	}
-.col h3{
+.card h3{
 	color:aqua;
 	font-size:1.5rem;
 }
-.col h5{
+.card h5{
 	font-size:1.9rem;
 }	
 	
-.col sub{
+.card sub{
 	color:gray;
 }
 
-.col ul li{
+.card ul li{
 	list-style:none;
 	margin-top:0.7rem;
 }
-.col a {
+.card a {
 	text-decoration:none;
-	width:5%;
+	width:50%;
 	height:5%;
 	border:1px solid blue;
 	border-radius:20px;
-	padding:0.5rem;
-	margin-top:2rem;
+	padding:0.7vh;
 	}
 	
 
