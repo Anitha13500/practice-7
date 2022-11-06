@@ -1,0 +1,212 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+.page{
+  width:100%;
+  height:100vh;
+  background-image:url("background image.jpg");
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+}	
+.page1{
+	display:flex;
+	justify-content:space-between;
+	padding-top:1rem;	
+	padding-bottom:2rem;	
+}
+.navbar ul{
+	display:none;
+}
+.navbar iconify-icon{
+	color:white;
+	font-size:1.5rem;
+}
+.logo a{
+	font-size:1.7rem;
+	color:white;
+	text-decoration:none;
+	}
+.pho h1{
+	color:white;
+	text-align:center;
+	font-size:3rem; 
+	margin-top:3rem;
+	font-weight:600;
+	line-height:1.5;
+}
+.pho p{
+	font-size:2rem;
+	color:white;
+	text-align:center;
+	font-weight:400;
+	margin-top:1rem;
+}
+@media(min-width:768px){
+	.pho h1{
+	color:white;
+	text-align:center;
+	font-size:4.5rem; 
+	margin-top:1rem;
+	font-weight:600;
+}
+.pho p{
+	font-size:2.5rem;
+	color:white;
+	text-align:center;
+	font-weight:400;
+	}
+}
+@media(min-width:1024px){
+	.navbar ul{
+		display:block;
+		display:flex;
+		justify-content:space-between;
+	}
+	.navbar a{
+		text-decoration:none;
+		color:white;
+		padding:0.5rem;
+		font-size:1.3rem;
+	}
+	.navbar iconify-icon{
+		display:none;
+	}
+	.pho h1{
+	color:white;
+	text-align:center;
+	font-size:4.5rem; 
+	margin-top:7rem;
+	font-weight:600;
+	line-height:1.5;
+}
+.pho p{
+	font-size:3rem;
+	color:white;
+	text-align:center;
+	font-weight:400;
+	margin-top:1rem;
+	}
+}
+.page2{
+	width:100%;
+	padding-top:2rem;
+	background-color:F5F5F5;
+}
+.profile {
+	width:100%;
+	background-color:F5F5F5;
+}
+.skill {
+	width:100%;
+	border:1px solid FFFFFF;
+	background-color:FFFFFF;
+	padding-bottom:2rem;
+}
+ .name {
+	width:100%;
+	border:1px solid FFFFFF;
+	margin-top:2rem;
+}
+.about {
+	width:100%;
+	border:1px ffffff;
+	margin-top:2rem;
+	
+}
+.about h1 {
+	font-size:1.2rem;
+}
+
+
+.para p{
+font-size:1.5rem;;
+}
+.photo{
+	padding-left:1.7rem;
+}
+.photo1 {
+	width:100%;
+	
+}
+.photo1 img{
+		margin-top:4rem;
+		border-radius:10%;
+		
+}
+.aboutme {
+        width:100%;
+		margin-top:4rem;
+		line-height:2.5;
+}
+.aboutme span{
+	font-weight:900;
+	color:black;
+	font-size:1.1rem;
+}
+.aboutme p{
+	font-size:1.1rem;
+	color:gray;
+}
+.home h3{
+	font-weight:600;
+	color:black;
+}
+.home {
+	width:100%;
+	font-size:1.1rem;
+	margin-left:1.5rem;
+	line-height:2.1;
+	color:gray;
+}
+.home progress {
+	width:85%;
+	height:6vh;
+}
+.about{
+	
+	padding:1rem;
+
+}
+.about h1{
+	font-size:2rem;
+}
+.about h1::after{
+	content:"";
+	height:0.7vh;
+	width:33%;
+	background-color:#0078ff;
+	display:block;
+	margin-top:1rem;
+}
+	
+.para p{
+	color:gray;
+	margin-top:1.5rem;
+	line-height:1.5;
+}
+@media(min-width:768px){
+	.photo{
+		width:45%;
+		display:flex;
+		
+	}
+	.aboutme{
+		margin-left:1rem;
+	}
+	.skill{
+		display:flex;
+	}
+	.about{
+		margin-top:4rem;
+	}
+		
+}
+		
+		
