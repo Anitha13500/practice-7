@@ -8,7 +8,6 @@
 
 .card{
 	width:100%;
-	border:1px solid black;
 	padding:2rem;
 	text-align:center;
 	margin:auto;
@@ -34,15 +33,16 @@
 	font-size:1.9rem;
 }	
 	
-.card sub{
+.card span{
 	color:gray;
+	font-size:1.3rem;
 }
 
 .card ul li{
 	list-style:none;
 	margin-top:0.7rem;
 }
-.card a {
+/* .card a {
 	text-decoration:none;
 	width:50%;
 	height:5%;
@@ -50,6 +50,6 @@
 	border-radius:20px;
 	padding:0.7vh;
 	}
-	
+	 */
 
 
