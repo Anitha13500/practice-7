@@ -13,14 +13,14 @@
 		<section class="container">
 			<div class="calculator1">
 			<div class="cal">
-				<input type="text" placeholder="0">
-				<button onclick="clear()">clear</button>
-				<button onclick="delect()">delect</button>
+				<input type="text" id="addd" placeholder="0" style="font-size:3rem;">
+				<button onclick="ani()">clear</button>
+				<button onclick="delect()">del</button>
 				<button onclick="display('%')">%</button>
 				<button onclick="display('/')">/</button>
 				<button onclick="display('7')">7</button>
 				<button onclick="display('8')">8</button>
-				<button onclick="display('0')">9</button>
+				<button onclick="display('9')">9</button>
 				<button onclick="display('*')">*</button>
 				<button onclick="display('4')">4</button>
 				<button onclick="display('5')">5</button>
@@ -31,10 +31,32 @@
 				<button onclick="display('3')">3</button>
 				<button onclick="display('+')">+</button>
 				<button onclick="display('.')">.</button>
-				<button onclick="display('=')">=</button>
+				<button onclick="display('0')">0</button>
+				<button onclick="display('00')">00</button>
+				<button onclick="calculate('=')"class="equal">=</button>
 			</div>
 			</div>
 		</section>
 	</div>
 </body>
+	<script>
+	var output1=document.getElementById("addd");
+		function display(number){
+			output1.value += number;
+		}
+		function delect(){
+			output1.value = output1.value.slice(0,-1);
+		}
+		function ani(){
+			output1.value="";
+		}
+		function calculate(){
+			output1.value=eval(output1.value); 
+			
+		}
+		
+		
+		<!-- let a=eval("2+3"); -->
+		<!-- console.log(a) -->
+	</script>
 </html>
