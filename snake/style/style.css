@@ -1,0 +1,133 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:85%;
+	margin:auto;
+}	
+.table tr{
+	margin:auto;
+	text-align:center;
+	align-items:cneter;
+}
+.page2{
+	border:1px solid black;
+}
+.yellow{
+	height:6rem;
+	width:6rem;
+	float:left;
+	font-size:2rem;
+	background-color:red;
+	border:1px solid black;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.green{
+	height:6rem;
+	width:6rem;
+	float:left;
+	font-size:2rem;
+	background-color:green;
+	border:1px solid black;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.red{
+	height:6rem;
+	width:6rem;
+	float:left;
+	font-size:2rem;
+	background-color:yellow;
+	border:1px solid black;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.pink{
+	height:6rem;
+	width:6rem;
+	float:left;
+	font-size:2rem;
+	background-color:aqua;
+	border:1px solid black;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.aqua{
+	height:6rem;
+	width:6rem;
+	float:left;
+	font-size:2rem;
+	background-color:pink;
+	border:1px solid black;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.page2{
+	position:relative;
+}
+.photo{
+	position:absolute;
+	top:15rem;
+	bottom:0;
+	right:0;
+	left:10rem;
+}
+.photo1{
+	position:absolute;
+	top:0;
+	bottom:15rem;
+	right:0;
+	left:10rem;
+}
+.lader{
+	position:absolute;
+	top:5rem;
+	bottom:5rem;
+	right:10rem;
+	left:23rem;
+}
+.lader1{
+	position:absolute;
+	top:3rem;
+	bottom:3rem;
+	right:1rem;
+	left:47rem;
+}
+.photo5{
+	position:absolute;
+	top:47rem;
+	bottom:3rem;
+	right:35rem;
+	left:47rem;
+}
+.photo7{
+	position:absolute;
+	top:30rem;
+	bottom:41rem;
+	right:30rem;
+	left:40rem;
+}
+.lader3{
+	position:absolute;
+	top:30rem;
+	bottom:45rem;
+	right:15rem;
+	left:2rem;
+}
+
+
+
+
+
+
+
+
+
