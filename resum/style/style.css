@@ -142,12 +142,19 @@ margin-top:1rem;
 	font-weight:500;
 	line-height:1.5
 }
+
 .mydetails h2{
 	color:red;
 	font-size:1.5rem;
 	line-height:1.5;
 }
+
 .mydetails p{
+	line-height:1.7;
+	font-size:1.3rem;
+	color:#C515b5;
+	}
+.mydetails ul li{
 	line-height:1.7;
 	font-size:1.3rem;
 	color:#C515b5;
@@ -186,9 +193,49 @@ margin-top:1rem;
 	text-align:center;
 	
 	}
-.port img{
+.portimg img{
 	border-radius:20px;
 	border:1px solid black;
+}
+.portimg{
+	position:relative;
+}
+.porticon iconify-icon{
+	font-size:1rem;
+	padding:0.7rem;
+	border-radius:50%;
+	border:1px solid black;
+	background-color:white;
+	color:blue;
+	margin-top:1rem;
+}
+.porticon h1{
+	color:white;
+	margin-top:0.5rem;
+	font-size:1rem;
+}
+
+.porticon{
+	position:absolute;
+	top:0; 
+	right:0;
+	bottom:0;
+	left:0;
+	border:1px solid black;
+	text-align:center;
+	padding:0.7rem;
+	background-color:#0000009e;
+	opacity:0;
+}
+.porticon:hover{
+	opacity:1;
+	transition:1s all ease;
+	border-radius:20px;
+}
+.porticon iconify-icon:hover{
+	background-color:skyblue;
+	color:white;
+	border-radius:20px;
 }
 .port a{
 	padding:1rem;
@@ -210,32 +257,80 @@ margin-top:1rem;
 	padding-bottom:2.5rem;
 	background-color:#880E4F; 
 }
-
-.name{
-	text-align:center;
-	font-size:1.2rem;
-	color:white;
-	margin-top:2rem;
+.lastpage{
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+	flex-wrap:wrap;
 }
-.name iconify-icon{
+.newyork{
+	width:100%;
+	padding:1rem;
+	border:1px solid white;	
+	margin-top:3rem;
+	box-shadow:0 0 30px rgb(214 215 216/60%);
+	padding-bottom:2rem;
+}
+.newyork iconify-icon{
 	font-size:2rem;
-	align-items:center;
+	height:65px;
+	width:65px;
+	border:3px dotted #9eccf4;
+	color:blue;
+	display:flex;
 	justify-content:center;
-	color:white;
-}
-.foot h5{
+	align-items:center;
+	border-radius:50%;
 	margin:auto;
 	color:white;
-	text-align:center;
-	justify-content:center;
-	align-items:center;
+	}
+.newyork iconify-icon:hover{
+	color:
 }
-.foot a{
+.newyork h2{
+	font-size:1.7rem;
+	margin-top:1rem;
+	text-align:center;
+	font-weight:500;
+	color:white;
+}
+.newyork p{
+	font-size:1rem;
+	margin-top:1rem; 
+	text-align:center;
+	color:white;
+}
+.emailus{
+	width:100%;
+	padding:1rem;
+	border:1px solid white;	
+	margin-top:3rem;
+	box-shadow:0 0 30px rgb(214 215 216/60%);
+	padding-bottom:2rem;
+}
+.emailus iconify-icon{
+	font-size:2rem;
+	height:70px;
+	width:70px;
+	border:3px dotted #9eccf4;
+	color:blue;
+	display:flex;
 	justify-content:center;
 	align-items:center;
-	text-decoration:none;
-	font-size:1.1rem;
+	border-radius:50%;
+	margin:auto;
 	color:white;
-	display:flex;
-	line-height:1.7;
+	}
+.emailus h2{
+	font-size:1.7rem;
+	margin-top:1rem;
+	text-align:center;
+	font-weight:500;
+	color:white;
+}
+.emailus p{
+	font-size:1rem;
+	margin-top:1rem; 
+	text-align:center;
+	color:white;
 }
