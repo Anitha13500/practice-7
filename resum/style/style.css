@@ -18,62 +18,101 @@
 	margin:auto;
 	}
 .page1{
-	background-color:#880E4F;
+	/* background-color:#5687e0; */
+	height:85vh; 
 	padding-bottom:3.5rem;
+	background:linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+	background-size:300% 300%;
+	animation:color 12s ease-in-out infinite;
 }
-.img1 {
-	width:100%;
-	position:relative;
-	animation:move 5s infinite;
-	}	
-@keyframes move{
-	from{
-		top:0px;
+@keyframes color{
+	0%{
+		background-position:0 50%;
 	}
-	to{
-		top:30px;
+	50%{
+		background-position:100% 50%;
 	}
-} 
+	100%{
+		background-position:0,50%;
+	}
+}
+
 .img1 img{
-	border-radius:20px;
+	border-radius:50%;
 	margin-top:2rem;
-	width:100%;
+	width:200px;
+	height:200px;
+	border:6px solid white;
 }
-.para h1{
-	font-size:3rem;
+.img1{
+	width:350px;
+	height:350px;
+	text-align:center;
 	margin:auto;
+}
+.img1 h1{
+	font-size:3rem;
 	margin-top:2rem;
+	text-align:center;
+	color:white;
 }
-.para h1:hover{
-	color:#F4D03F ;
-}
-.para h3{
+/* .para h1:hover{ */
+	/* color:#F4D03F ; */
+/* } */
+.img1 h3{
 	font-size:2rem;
+	color:white;
+	text-align:center;
 }
-.para iconify-icon {
-	font-size:3.5rem;
+@media(min-width:365px){
+	.img1 h1{
+		font-size:1.5rem
+	}
+	.img1 h3{
+		font-size:1.5rem
+	}
+	.img1 iconify-icon{
+		font-size:0.5rem;
+		
+	}
+}@media(min-width:1024px){
+	.img1 h1{
+		font-size:2.5rem
+	}
+	.img1 h3{
+		font-size:2.5rem
+	}
+	.img1 iconify-icon{
+		font-size:0.5rem;
+		
+	}
+}
+
+.img1 iconify-icon {
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	border:1px  solid white;
+	font-size:3rem;
 	display:flex;
 	justify-content:center;
-	margin-top:2rem;
-	cursor:pointer;
-}
-.para{
-	text-align:center; 
+	align-items:center;
 	margin:auto;
 	color:white;
+	cursor:pointer;
 }
 /* finish */
 .page2{
 	padding-top:2rem;
 	padding-bottom:1rem;
-	
+	background-color:#5687e017;
 }
 .aboimage {
 	width:100%;
 }
 .aboimage img{
-	border-radius:50px;
-	border:1px solid black;
+	width:200px;
+	height:200px;
 }
 .web {
 	margin-top:2rem;
@@ -94,6 +133,7 @@
 	font-weight:500;
 	color:black;
 }
+
 .about h1{
 	font-size:2rem; 
 	margin-top:3rem;
@@ -110,6 +150,26 @@
 	margin:auto;
 	margin-top:0.3rem;
 }
+.abouticons{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin:auto;
+}
+.aboicon iconify-icon{
+	font-size:2rem;
+	height:65px;
+	width:65px;
+	border:3px dotted #9eccf4;
+	color:blue;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:50%;
+	margin:auto;
+	color:blue;
+	margin-top:10px;
+	}
 .page3{
 	margin-top:1rem;
 	padding-bottom:2rem;
@@ -122,6 +182,7 @@
 .page4{
 margin-top:1rem;
 	padding-bottom:3rem;
+	background-color:#5687e017;
 	}
 .mydetails{
 	box-shadow:0px 5px 15px rgb(0,0,0,10%);
@@ -159,20 +220,6 @@ margin-top:1rem;
 	font-size:1.3rem;
 	color:#C515b5;
 	}
-.education:hover {
-	width:100%;
-	position:relative;
-	animation:move 5s infinite;
-	
-	}	
-@keyframes move{
-	from{
-		top:0px;
-	}
-	to{
-		top:30px;
-	}
-}
 @media(min-width:768px){
 	.education{
 		display:flex;
@@ -255,50 +302,7 @@ margin-top:1rem;
 .page6{
 	margin-top:2rem;
 	padding-bottom:2.5rem;
-	background-color:#880E4F; 
-}
-.lastpage{
-	display:flex;
-	justify-content:space-between;
-	width:100%;
-	flex-wrap:wrap;
-}
-.newyork{
-	width:100%;
-	padding:1rem;
-	border:1px solid white;	
-	margin-top:3rem;
-	box-shadow:0 0 30px rgb(214 215 216/60%);
-	padding-bottom:2rem;
-}
-.newyork iconify-icon{
-	font-size:2rem;
-	height:65px;
-	width:65px;
-	border:3px dotted #9eccf4;
-	color:blue;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	border-radius:50%;
-	margin:auto;
-	color:white;
-	}
-.newyork iconify-icon:hover{
-	color:
-}
-.newyork h2{
-	font-size:1.7rem;
-	margin-top:1rem;
-	text-align:center;
-	font-weight:500;
-	color:white;
-}
-.newyork p{
-	font-size:1rem;
-	margin-top:1rem; 
-	text-align:center;
-	color:white;
+	background-color:#5687e0;
 }
 .emailus{
 	width:100%;
@@ -307,6 +311,18 @@ margin-top:1rem;
 	margin-top:3rem;
 	box-shadow:0 0 30px rgb(214 215 216/60%);
 	padding-bottom:2rem;
+	text-align:center;
+	/* background-color:white; */
+}
+.emailus a{
+	text-decoration:none;
+	color:black;
+	padding:0.7rem;
+	border-radius:25px;
+	color:black;
+	background-color:white;
+	/* background-color:#5687e017; */
+	
 }
 .emailus iconify-icon{
 	font-size:2rem;
@@ -329,7 +345,7 @@ margin-top:1rem;
 	color:white;
 }
 .emailus p{
-	font-size:1rem;
+	font-size:1.3rem;
 	margin-top:1rem; 
 	text-align:center;
 	color:white;
