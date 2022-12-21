@@ -110,10 +110,10 @@
 .aboimage {
 	width:100%;
 }
-.aboimage img{
-	width:200px;
-	height:200px;
-}
+/* .aboimage img{ */
+	/* width:200px; */
+	/* height:200px; */
+/* } */
 .web {
 	margin-top:2rem;
 }
@@ -302,7 +302,7 @@ margin-top:1rem;
 .page6{
 	margin-top:2rem;
 	padding-bottom:2.5rem;
-	background-color:#5687e0;
+	background-color:#23d5ab;      
 }
 .emailus{
 	width:100%;
