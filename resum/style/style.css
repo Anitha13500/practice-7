@@ -19,11 +19,12 @@
 	}
 .page1{
 	/* background-color:#5687e0; */
-	height:85vh; 
-	padding-bottom:3.5rem;
-	background:linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+
+	padding-bottom:7rem;
+	/* background:linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab); */
 	background-size:300% 300%;
 	animation:color 12s ease-in-out infinite;
+	background-color:blue;
 }
 @keyframes color{
 	0%{
@@ -49,6 +50,7 @@
 	height:350px;
 	text-align:center;
 	margin:auto;
+	padding-bottom:2rem;
 }
 .img1 h1{
 	font-size:3rem;
@@ -64,6 +66,7 @@
 	color:white;
 	text-align:center;
 }
+
 @media(min-width:365px){
 	.img1 h1{
 		font-size:1.5rem
@@ -75,7 +78,8 @@
 		font-size:0.5rem;
 		
 	}
-}@media(min-width:1024px){
+}
+@media(min-width:1024px){
 	.img1 h1{
 		font-size:2.5rem
 	}
@@ -103,43 +107,57 @@
 }
 /* finish */
 .page2{
-	padding-top:2rem;
+	/* padding-top:2rem; */
 	padding-bottom:1rem;
-	background-color:#5687e017;
+	/* background-color:#EEEEEE; */
 }
 .aboimage {
 	width:100%;
 }
-/* .aboimage img{ */
-	/* width:200px; */
-	/* height:200px; */
+.aboimage img{
+	border-radius:50px 50px 30px 30px;
+}
+/* .web { */
+	/* margin-top:2rem; */
 /* } */
-.web {
-	margin-top:2rem;
+/* .web p{ */
+	/* margin-top:0px; */
+	/* line-height:3; */
+	/* font-size:1.3rem; */
+	/* color:gray; */
+/* } */
+.object h2{
+	padding-top:1.5rem;
 }
-.web p{
-	margin-top:0px;
-	line-height:3;
+.objcontent h2{
 	font-size:1.3rem;
-	color:gray;
-
+	padding-top:1.5rem;
 }
-.web iconify-icon {
+.objcontent span{
+	font-size:1.5rem;
+}
+.object h1{
+	font-size:2rem;
+	padding-top:2rem;
+}
+.object h2{
 	font-size:1.3rem;
-	color:#3682C8;
 }
-.web span{
-	font-size:1.3rem;
-	font-weight:500;
-	color:black;
-}
+/* .web iconify-icon { */
+	/* font-size:1.3rem; */
+	/* color:#3682C8; */
+/* } */
+/* .web span{ */
+	/* font-size:1.3rem; */
+	/* font-weight:500; */
+	/* color:black; */
+/* } */
 
 .about h1{
 	font-size:2rem; 
 	margin-top:3rem;
 	text-align:center;
 	font-weight:600;
-	padding:2rem;
 }
 .about h1::after{
 	content:"";
@@ -170,6 +188,17 @@
 	color:blue;
 	margin-top:10px;
 	}
+@media(min-width:1024px){
+.about h1::after{
+	content:"";
+	width:5%;
+	height:0.7vh;
+	background-color:#0563BB;
+	display:block;
+	margin:auto;
+	margin-top:0.5rem;
+}
+}	
 .page3{
 	margin-top:1rem;
 	padding-bottom:2rem;
@@ -182,7 +211,7 @@
 .page4{
 margin-top:1rem;
 	padding-bottom:3rem;
-	background-color:#5687e017;
+	/* background-color:#EEEEEE; */
 	}
 .mydetails{
 	box-shadow:0px 5px 15px rgb(0,0,0,10%);
@@ -247,43 +276,23 @@ margin-top:1rem;
 .portimg{
 	position:relative;
 }
-.porticon iconify-icon{
-	font-size:1rem;
-	padding:0.7rem;
-	border-radius:50%;
-	border:1px solid black;
-	background-color:white;
-	color:blue;
-	margin-top:1rem;
-}
-.porticon h1{
-	color:white;
-	margin-top:0.5rem;
-	font-size:1rem;
-}
 
-.porticon{
-	position:absolute;
-	top:0; 
-	right:0;
-	bottom:0;
-	left:0;
-	border:1px solid black;
-	text-align:center;
-	padding:0.7rem;
-	background-color:#0000009e;
-	opacity:0;
-}
-.porticon:hover{
-	opacity:1;
-	transition:1s all ease;
-	border-radius:20px;
-}
-.porticon iconify-icon:hover{
-	background-color:skyblue;
-	color:white;
-	border-radius:20px;
-}
+.tools{
+	 
+ }
+ .tools h1{
+	 margin-top:2rem;
+	 color:#D7007A;
+	 text-align:center;
+	
+ }
+ .tools span{
+	 font-size:1.2rem;
+	 font-weight:700;
+ }
+ .tools p{
+	 font-size:1.2rem;
+ }
 .port a{
 	padding:1rem;
 }
@@ -302,25 +311,30 @@ margin-top:1rem;
 .page6{
 	margin-top:2rem;
 	padding-bottom:2.5rem;
-	background-color:#23d5ab;      
+	background-color:blue;      
 }
 .emailus{
 	width:100%;
 	padding:1rem;
-	border:1px solid white;	
+	/* border:1px solid white;	 */
 	margin-top:3rem;
 	box-shadow:0 0 30px rgb(214 215 216/60%);
 	padding-bottom:2rem;
 	text-align:center;
 	/* background-color:white; */
 }
+.lastpage{
+	display:flex;
+	justify-content:space-between;
+	width:100%
+}
 .emailus a{
 	text-decoration:none;
 	color:black;
 	padding:0.7rem;
 	border-radius:25px;
-	color:black;
-	background-color:white;
+	color:white;
+	background-color:#B12F5C;
 	/* background-color:#5687e017; */
 	
 }
