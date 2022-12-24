@@ -311,22 +311,25 @@ margin-top:1rem;
 .page6{
 	margin-top:2rem;
 	padding-bottom:2.5rem;
-	background-color:blue;      
-}
-.emailus{
-	width:100%;
-	padding:1rem;
-	/* border:1px solid white;	 */
-	margin-top:3rem;
-	box-shadow:0 0 30px rgb(214 215 216/60%);
-	padding-bottom:2rem;
-	text-align:center;
-	/* background-color:white; */
+	background-color:blue;  
+padding:2rem;
+/* padding-top:2rem;     */
 }
 .lastpage{
 	display:flex;
 	justify-content:space-between;
 	width:100%
+}
+.emailus{
+	width:30%;
+	padding:1rem;
+	/* border:1px solid white;	 */
+	margin-top:3rem;
+	/* box-shadow:0 0 30px rgb(214 215 216/60%); */
+	padding-bottom:2rem;
+	text-align:center;
+	background-color:white;
+	padding:1.5rem;
 }
 .emailus a{
 	text-decoration:none;
@@ -334,9 +337,12 @@ margin-top:1rem;
 	padding:0.7rem;
 	border-radius:25px;
 	color:white;
-	background-color:#B12F5C;
-	/* background-color:#5687e017; */
+	/* background-color:#B12F5C; */
+	background-color:blue;
 	
+}
+.emailus a:hover{
+	color:white;
 }
 .emailus iconify-icon{
 	font-size:2rem;
@@ -349,18 +355,18 @@ margin-top:1rem;
 	align-items:center;
 	border-radius:50%;
 	margin:auto;
-	color:white;
+	/* color:white; */
 	}
 .emailus h2{
 	font-size:1.7rem;
 	margin-top:1rem;
 	text-align:center;
 	font-weight:500;
-	color:white;
+	/* color:white; */
 }
 .emailus p{
 	font-size:1.3rem;
 	margin-top:1rem; 
 	text-align:center;
-	color:white;
+	/* color:white; */
 }
