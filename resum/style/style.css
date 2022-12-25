@@ -24,7 +24,7 @@
 	/* background:linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab); */
 	background-size:300% 300%;
 	animation:color 12s ease-in-out infinite;
-	background-color:blue;
+	background-color:#0C6BB8;
 }
 @keyframes color{
 	0%{
@@ -107,9 +107,9 @@
 }
 /* finish */
 .page2{
-	/* padding-top:2rem; */
+	 padding-top:2rem; 
 	padding-bottom:1rem;
-	/* background-color:#EEEEEE; */
+	/* background-color:#F1F8FF; */
 }
 .aboimage {
 	width:100%;
@@ -134,7 +134,7 @@
 	padding-top:1.5rem;
 }
 .objcontent span{
-	font-size:1.5rem;
+	font-size:1rem;
 }
 .object h1{
 	font-size:2rem;
@@ -207,6 +207,9 @@
 	color:#B614AE;
 	text-shadow:1px 3px 3px #31DEDB  ;
 	margin-top:1.5rem;
+}
+.progress-bar{
+	background-color:yellow!important;
 }
 .page4{
 margin-top:1rem;
@@ -311,7 +314,7 @@ margin-top:1rem;
 .page6{
 	margin-top:2rem;
 	padding-bottom:2.5rem;
-	background-color:blue;  
+	background-color:#0C6BB8;  
 padding:2rem;
 /* padding-top:2rem;     */
 }
@@ -328,7 +331,7 @@ padding:2rem;
 	/* box-shadow:0 0 30px rgb(214 215 216/60%); */
 	padding-bottom:2rem;
 	text-align:center;
-	background-color:white;
+	background-color:#F1F8FF;
 	padding:1.5rem;
 }
 .emailus a{
@@ -338,7 +341,7 @@ padding:2rem;
 	border-radius:25px;
 	color:white;
 	/* background-color:#B12F5C; */
-	background-color:blue;
+	background-color:#0C6BB8;
 	
 }
 .emailus a:hover{
@@ -370,3 +373,15 @@ padding:2rem;
 	text-align:center;
 	/* color:white; */
 }
+.page7{
+	background-color:#F1F8FF;
+}
+.lastsection{
+	padding:2rem;
+}
+.lastsection h5{
+	text-align:center;
+	font-weight:700;
+	
+}
+
