@@ -12,6 +12,9 @@
 	bottom:0;
 	z-index:1;
 }
+.nav-link:hover{
+	color:#0C6BB8 !important;
+}
 
 .container{
 	width:90%;
@@ -154,10 +157,11 @@
 /* } */
 
 .about h1{
-	font-size:2rem; 
+	font-size:2.7rem; 
 	margin-top:3rem;
 	text-align:center;
 	font-weight:600;
+	color:#0C6BB8;
 }
 .about h1::after{
 	content:"";
@@ -220,7 +224,7 @@ margin-top:1rem;
 	box-shadow:0px 5px 15px rgb(0,0,0,10%);
 	margin-top:3rem;
 	padding:2rem;
-	border-left:2px solid #C71585;
+	border-left:5px solid #0C6BB8;
 }
 .mydetail h1{
 	color:#C71585;
@@ -237,20 +241,21 @@ margin-top:1rem;
 }
 
 .mydetails h2{
-	color:red;
-	font-size:1.5rem;
+	/* color:red; */
+	font-size:1.7rem;
 	line-height:1.5;
+	font-weight:700;
 }
 
 .mydetails p{
 	line-height:1.7;
 	font-size:1.3rem;
-	color:#C515b5;
+	/* color:#C515b5; */
 	}
 .mydetails ul li{
 	line-height:1.7;
 	font-size:1.3rem;
-	color:#C515b5;
+	/* color:#C515b5; */
 	}
 @media(min-width:768px){
 	.education{
@@ -285,7 +290,7 @@ margin-top:1rem;
  }
  .tools h1{
 	 margin-top:2rem;
-	 color:#D7007A;
+	 color:#0C6BB8;
 	 text-align:center;
 	
  }
@@ -304,11 +309,14 @@ margin-top:1rem;
 	font-size:1rem;
 	color:white;
 }
+.but:hover{
+	color:white;
+}
 .port button{
 	margin-top:2rem;
 	 padding:0.3rem;
 	border-radius:15px;
-	background-color:#B12F5C;
+	background-color:#0C6BB8;
 	border:none;
 }
 .page6{
@@ -382,6 +390,6 @@ padding:2rem;
 .lastsection h5{
 	text-align:center;
 	font-weight:700;
-	
+	color:#0C6BB8;
 }
 
