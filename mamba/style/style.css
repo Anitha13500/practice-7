@@ -12,7 +12,6 @@
 }
 .head1{
 	justify-content:space-between;
-	
 }
 .head{
 	padding-top:0.7rem;
@@ -60,13 +59,9 @@
 .content iconify-icon{
 	font-size:2rem;
 }
-	
-
 .logo ul{
 	display:flex;
-	
 }
-	
 .logo ul,li{
 	list-style:none;
 	padding:0.5rem;
@@ -97,9 +92,7 @@
 		width:100%;
 		height:80vh; 
 		background-size:cover;
-		
 	}
-
 .dolor h1 {
 	font-size:1rem;
 	color:white;
@@ -124,10 +117,13 @@
 	margin-top:3rem;
 	border:1px solid 428bca;
 	color:white;
-	padding:10px 23px 10px 23px;
-	background-color:428bca;
+	padding:1rem 1.7rem;
+	background-color:428bca; 
 	border-radius:0.5rem;
-
+	font-weight:700;
+}
+.lin a:hover{
+	background-color:#007aff;
 }
 @media(min-width:768px){
 	
@@ -163,10 +159,7 @@
 	.dolor h1{
 		font-size:2.7rem;
 		padding-top:7rem;
-		
-		
-		
-	}
+}
 	.dolor p{
 	font-size:1.3rem;
 	color:white;
@@ -188,7 +181,6 @@
 	border-radius:0.5rem;
 	}
 }
-
 .page2{
 		width:100%;
 		padding:1rem;
@@ -220,20 +212,21 @@
 	width:100%;
 	margin-top:2rem;
 }
-	
-.icon1 iconify-icon{
-	font-size:2rem;
+.abouticon{
 	height:5rem;
 	width:5rem;
 	border:1px solid F1F7FB;
 	background-color:#F1F7FB;
-	color:blue;
 	display:flex;
 	justify-content:center;
 	float:left;
 	align-items:center;
 	}
-.icon1 iconify-icon:hover{
+.abouticon iconify-icon{
+	font-size:2rem;
+	color:blue;
+}
+.abouticon iconify-icon:hover{
 	color:white;
 	background-color:007aff;
 }
@@ -245,23 +238,14 @@
 	font-size:1.3rem;
 	font-weight:500;
 }
-
-		
 .aboimage iconify-icon{
-	
 	color:white;
 	font-size:1rem;
-	
-	
 }
 .aboutus{
 	position:relative;
-	
-	
-	
 }
 .aboimage{
-	
 	width:65px;
 	height:65px;
 	border:1px solid 428bca;
@@ -274,10 +258,6 @@
 		margin:auto;
 	left:35%;
 	top:40%;
-	
-   
-	
-	
 }
 .icon1 a:hover{
 	color:blue;
@@ -291,8 +271,6 @@
 		box-shadow:0px 0px 5px rgb(0 0 0 /15%);		
 	}
 	.aboimage {
-		
-		
 	width:65px;
 	height:65px;
 	border:1px solid 428bca;
@@ -310,13 +288,9 @@
 		padding:1.7rem;
 		margin-bottom:1rem;
 	}
-	
-		
 .aboimage iconify-icon{
-	
 	color:white;
 	font-size:1rem;
-	
 }
 .aboutus{
 	position:relative;
@@ -331,7 +305,6 @@
 }
 }
 @media(min-width:1024px){
-	
 	.page2{
 		width:100%;
 		/* padding:3rem; */
@@ -361,8 +334,7 @@
 	font-size:1.1rem;
 	font-family:italic;
 	}
-	.aboimage {
-		
+	.aboimage {	
 	width:65px;
 	height:65px;
 	border:1px solid 428bca;
@@ -431,10 +403,8 @@
 }
 .icon1 p{ 
 	font-size:1.1rem;
-	
-	}
 }
-
+}
 .ipsum{
 		width:100%;
 		background-color:FFFFFF;
@@ -516,8 +486,6 @@
 	border-right:1px solid #9ECCF4;
 	border-bottom:none;
 	}
-	
-	
 }
 @media(min-width:1024px){
 	.ipsum1{
@@ -652,22 +620,26 @@
 	margin-top:2rem;
 	
 }
-.perspiciatis1 iconify-icon {
-	font-size:2rem;
+.per {
+	
 	height:60px;
 	width:60px;
 	border:1px solid F1F7FB;
-	background-color:#F1F7FB;
-	color:blue;
+	background-color:white;
+	/* box-shadow:0px 0px 10px; */
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	border-radius:50%;
-	box-shadow:0px 0px 10px #8888884a;
+	box-shadow:0px 0px 25px rgb(0 0 0/15%);
 	margin:auto;
 }
-.perspiciatis1 iconify-icon:hover{
-	box-shadow:0px 0px 10px;
+.per iconify-icon{
+	font-size:2rem;
+	color:blue;
+}
+.per:hover{
+	box-shadow:0px 0px 25px rgb(66 139 202/60%);
 }
 .perspiciatis1 h2{
 	font-size:1.5rem;
@@ -727,20 +699,20 @@
 .perspiciatis1{
 	width:32%;
 	}
-	.perspiciatis1 iconify-icon {
-	font-size:2rem;
-	height:60px;
-	width:60px;
-	border:1px solid F1F7FB;
-	background-color:#F1F7FB;
-	color:blue;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	border-radius:50%;
-	box-shadow:0px 0px 10px #8888884a;
-	margin:auto;
-	}
+	/* .perspiciatis1 iconify-icon { */
+	/* font-size:2rem; */
+	/* height:60px; */
+	/* width:60px; */
+	/* border:1px solid F1F7FB; */
+	/* background-color:#F1F7FB; */
+	/* color:blue; */
+	/* display:flex; */
+	/* justify-content:center; */
+	/* align-items:center; */
+	/* border-radius:50%; */
+	/* box-shadow:0px 0px 10px #8888884a; */
+	/* margin:auto; */
+	/* } */
 	.perspiciatis1 p{
 	color:AEAEAE;
 	font-size:1.3rem
@@ -773,15 +745,13 @@
 	text-decoration:none;
 	padding:0.7rem;
 	color:black;	
-}
-
+	}
 .moni a:hover{
 	background-color:#428BCA;
 	color:white;	
 }
 .app1{
 	width:100%;
-	
 }
 .web1{
 	width:100%;
@@ -801,16 +771,15 @@
 	left:0;
 	border:1px solid black;
 	text-align:center;
-	padding:0.5rem;
+	/* padding:0.5rem; */
 	background-color:#0000009e;
 	opacity:0;
-	
 }
 .cup:hover{
 	opacity:1;
 	transition:1s all ease;
 }
-.cup iconify-icon:hover{
+.appicons:hover{
 	background-color:skyblue;
 	color:white;
 }
@@ -824,15 +793,41 @@
 	color:white;
 	margin-top:1rem;
 }
-.cup iconify-icon{
-	font-size:1.7rem;
-	padding:0.2rem;
-	border-radius:50%;
-	border:1px solid black;
-	background-color:white;
-	color:blue;
-	margin-top:1rem;
+.appicon{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	padding:10px;
+	gap:0.5rem;
 }
+.appicons{
+	height:40px;
+	width:40px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:50%;
+	background-color:white;
+	}
+.appicons iconify-icon{
+	font-size:2rem;
+	color:blue;
+	
+}
+.appicons iconify-icon:hover{
+	color:white;
+}
+
+/* .cup iconify-icon{ */
+	/* font-size:1.7rem; */
+	/* padding:0.2rem; */
+	/* border-radius:50%; */
+	/* border:1px solid black; */
+	/* background-color:white; */
+	/* color:blue; */
+	/* margin-top:1rem; */
+/* } */
 @media(min-width:768px){
 	
 	.app1{
@@ -846,8 +841,6 @@
 	}
 }
 @media(min-width:1024px){
-	
-	  
 	.app1{
 	display:flex;
 	justify-content:space-between;
@@ -863,7 +856,7 @@
 	}
 
 }
-
+/* FINISHED */
 .team{
 	width:100%;
 	padding-top:3rem;
@@ -885,16 +878,20 @@
 	width:100%;
 	
 }
-.Sarah img{
+.Sarahimg img{
 	width:100%;
+	transition:all 0.5s ease;
 	margin-top:5rem;
 	}
-.sarah img:hover{
+.sarahimg img:hover{
 	transform:scale(1.1);
 	
 }
 .Sarah{
 	position:relative;
+}
+.sarahimg{
+	overflow:hidden;
 }
 .white{
 	position:absolute;
@@ -903,7 +900,7 @@
 	background-color:#839eb5d6;
 	text-align:center;
 	margin:auto;
-	bottom:0;
+	bottom:-4;
 	color:white;
 	margin-left:30px;
 	margin-bottom:-45px;
@@ -965,10 +962,6 @@
 	margin-top:2rem;
 	}
 }
-
-
-
-
 .frequently{
 	width:100%;
 	background-color: F5F9FC;
@@ -1044,18 +1037,18 @@
 	box-shadow:0 0 30px rgb(214 215 216/60%);
 	padding-bottom:2rem;
 }
-.newyork iconify-icon{
-	font-size:2rem;
-	height:65px;
-	width:65px;
-	border:3px dotted #9eccf4;
-	color:blue;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	border-radius:50%;
-	margin:auto;
-	}
+/* .newyork iconify-icon{ */
+	/* font-size:2rem; */
+	/* height:65px; */
+	/* width:65px; */
+	/* border:3px dotted #9eccf4; */
+	/* color:blue; */
+	/* display:flex; */
+	/* justify-content:center; */
+	/* align-items:center; */
+	/* border-radius:50%; */
+	/* margin:auto; */
+	/* } */
 .newyork h2{
 	font-size:1.7rem;
 	margin-top:1rem;
@@ -1075,18 +1068,20 @@
 	box-shadow:0 0 30px rgb(214 215 216/60%);
 	padding-bottom:2rem;
 }
-.emailus iconify-icon{
-	font-size:2rem;
+.emailusicon{
 	height:70px;
 	width:70px;
 	border:3px dotted #9eccf4;
-	color:blue;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	border-radius:50%;
 	margin:auto;
 	}
+.emailusicon iconify-icon{
+	font-size:2rem;
+	color:blue;
+}
 .emailus h2{
 	font-size:1.7rem;
 	margin-top:1rem;
@@ -1099,31 +1094,20 @@
 	text-align:center;
 }
 @media(min-width:768px){
-	
-	.newyork iconify-icon{
-	font-size:2rem;
-	height:57px;
-	width:57px;
+	.emailusicon{
+	height:70px;
+	width:70px;
 	border:3px dotted #9eccf4;
-	color:blue;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	border-radius:50%;
 	margin:auto;
 	}
-	.emailus iconify-icon{
+.emailusicon iconify-icon{
 	font-size:2rem;
-	height:57px;
-	width:57px;
-	border:3px dotted #9eccf4;
 	color:blue;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	border-radius:50%;
-	margin:auto;
-	}
+}
 }
 @media(min-width:1024px){
 		
@@ -1140,32 +1124,7 @@
 		.emailus{
 			width:24%
 		}
-		.newyork iconify-icon{
-		font-size:2rem;
-		height:57px;
-		width:57px;
-		border:3px dotted #9eccf4;
-		color:blue;
-		display:flex;
-		justify-content:center;
-		align-items:center;
-		border-radius:50%;
-		margin:auto;
-		}
-		.emailus iconify-icon{
-		font-size:2rem;
-		height:57px;
-		width:57px;
-		border:3px dotted #9eccf4;
-		color:blue;
-		display:flex;
-		justify-content:center;
-		align-items:center;
-		border-radius:50%;
-		margin:auto;
-		}
-	}
-	/* form */
+}
 	.book {
 		width:100%;
 		padding-top:2rem;
@@ -1287,15 +1246,24 @@
 	font-size:18px;
 	margin-top:20px;
 }
+.phoneicon {
+	display:flex;
+	margin-top:1rem;
+	width:100%;
 
-.phone iconify-icon{
-	font-size:18px;
-	margin-top:20px;
-	padding:10px;
-	border-radius:50%;
-	background-color:#768fa6;
-    color: #fff;
 }
+.phoneicon iconify-icon{
+	font-size:1.5rem;
+	height:2.5rem;
+	width:2.5rem;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	 background-color:#768fa6;
+	 color: #fff;
+	 margin-right:0.5rem;
+ } 
 .usefullink ul, li{
 	display:block;
 		padding:10px;
@@ -1349,7 +1317,7 @@
 	}
 	.usa {
 		display:flex;
-		justify-content:space-between;
+		/* justify-content:space-between; */
 		flex-wrap:wrap;
 		width:100%;
 	} 
@@ -1368,7 +1336,7 @@
 	}
 	.usa{
 		display:flex;
-		justify-content:space-between;
+		/* justify-content:space-between; */
 	}
 	.phone h1{
 		font-size:18px;
@@ -1379,8 +1347,17 @@
 	.phone p{
 		font-size:16px;
 	}
-	.phone iconify-icon{
-		font-size:15px;
+	.phoneicon iconify-icon{
+		font-size:1.5rem;
+	height:2.5rem;
+	width:2.5rem;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	 background-color:#768fa6;
+	 color: #fff;
+	 margin-right:0.5rem;
 	}
 	.usefullink h4{
 		font-size:18px;
@@ -1410,10 +1387,4 @@
 	    text-decoration:none;
 		color:#9eccf4;;
 	} 
-
-
-
-
-	
-	
 	
