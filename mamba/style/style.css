@@ -890,7 +890,7 @@
 .Sarahimg img{
 	width:100%;
 	transition:all 0.5s ease;
-	margin-top:5rem;
+	/* margin-top:5rem; */
 	}
 .sarahimg img:hover{
 	transform:scale(1.1);
@@ -898,6 +898,7 @@
 }
 .Sarah{
 	position:relative;
+	width:100%;
 }
 .sarahimg{
 	overflow:hidden;
@@ -912,7 +913,8 @@
 	bottom:-4;
 	color:white;
 	margin-left:30px;
-	margin-bottom:-45px;
+	bottom:-45px;
+	border-radius:5px;
 }
 .white h1{
 	font-size:1.2rem;
@@ -926,7 +928,7 @@
 	background-color:white;
 	display:block;
 }
-.white iconify-icon{
+.whiteicon iconify-icon{
 	padding-top:1rem;
 }
 .white p{
