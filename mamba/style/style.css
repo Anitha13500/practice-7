@@ -28,7 +28,7 @@
 }
 .head iconify-icon{
 	font-size:1.1rem;
-	color:blue;
+	color:#428DCD;
 	cursor:pointer;
 }
 .head a{
@@ -99,8 +99,10 @@
 .lorem{
 		background:linear-gradient(#00000087,#000000a6),url("slide-1.jpg");
 		width:100%;
-		padding-bottom:7rem; 
+		padding-bottom:3rem; 
 		background-size:cover;
+		padding-top:4rem;
+		
 	}
 .dolor h1 {
 	font-size:1rem;
@@ -464,7 +466,7 @@
 	.ipsum1{	
 		width:100%;
 		display:flex;
-		justify-content:space-between;
+		/* justify-content:space-between; */
 		flex-wrap:wrap;
 	}
 	.repellat{
@@ -500,7 +502,7 @@
 	.ipsum1{
 		width:100%;
 		display:flex;
-		justify-content:space-between;
+		/* justify-content:space-between; */
 		flex-wrap:wrap;
 	}
 	.repellat{
@@ -789,7 +791,7 @@
 	transition:1s all ease;
 }
 .appicons:hover{
-	background-color:skyblue;
+	background-color:#428BCA;
 	color:white;
 }
 .cup h1{
@@ -883,96 +885,181 @@
 	margin-top:2rem;
 	
 	}
-.Walter{
-	width:100%;
-	
+
+.teams{
+	 padding-top:3rem;
+	 padding-bottom:3rem;
+ }
+
+
+ @media(min-width:375px){ 
+.team{
+    display: flex;
+    flex-wrap: wrap;
+     gap: 3.5rem; 
 }
-.Sarahimg img{
-	width:100%;
+.member1{
+    width:100%; 
+    position: relative;  	
+}
+.White{
+	overflow:hidden;
+}
+.member1 img{
+    width:100%;
 	transition:all 0.5s ease;
-	/* margin-top:5rem; */
-	}
-.sarahimg img:hover{
+}
+.member1 img:hover{
 	transform:scale(1.1);
 	
 }
-.Sarah{
-	position:relative;
-	width:100%;
+.member{
+    position:absolute;
+    background-color:#839eb5d6;
+    padding: 1rem ;
+    border-radius: 5px;
+    text-align: center;
+    bottom: -48px;
+    right: 20px;
+    left: 20px;
 }
-.sarahimg{
-	overflow:hidden;
+.member h4 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #fff;
+    position: relative;
+    text-align: center;
 }
-.white{
-	position:absolute;
-	width:80%;
-	padding:1rem;
-	background-color:#839eb5d6;
-	text-align:center;
-	margin:auto;
-	bottom:-4;
-	color:white;
-	margin-left:30px;
-	bottom:-45px;
-	border-radius:5px;
+.member h4::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+	left: calc(50% - 25px);
+    background: #fff;
+    margin: 1.6rem 0;
 }
-.white h1{
-	font-size:1.2rem;
+.member p{
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #fff;
 }
-.white h1::after{
-	content:"";
-	height:2px;
-	width:	15%;
-	margin:auto;
-	margin-top:0.5rem;
-	background-color:white;
-	display:block;
+.teamicon{
+    margin: 1rem 0;
 }
-.whiteicon iconify-icon{
-	padding-top:1rem;
+.teamicon iconify-icon{
+    color: #eee;
+	}
 }
-.white p{
-	font-size:15px;
-	font-style: italic;
-	color:white;
-	margin-top:0.7rem;
-} 
-
 @media(min-width:768px){
-	
-	.Walter{
-	width:100%;
-	display:flex;
-	justify-content:space-between;
-	flex-wrap:wrap;
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 	
 }
-.Sarah{
-	width:48%;
-	}
-.Sarah img{
-	width:100%;
-	margin-top:5rem;
-	}
+.member1{
+    width: 48%; 
+    position: relative; 
+margin-top:3rem;	
+}
+.member1 img{
+    width: 100%;
+}
+.member{
+    position:absolute;
+    background-color:#839eb5d6;
+    padding: 1rem 0;
+    border-radius: 4px;
+    text-align: center;
+    bottom: -48px;
+    right: 20px;
+    left: 20px;
+}
+.member h4 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
+.member h4::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background: #fff;
+    left: calc(50% - 25px);
+    margin: 1.6rem 0;
+}
+.member p{
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #fff;
+}
+.teamicon{
+    margin: 1rem 0;
+}
+.teamicon iconify-icon{
+    color: #eee;
+}
 }
 @media(min-width:1024px){
-	
-	.Walter{
-	width:100%;
-	display:flex;
-	justify-content:space-between;
-	flex-wrap:wrap;
-	margin-bottom:2rem;
-	
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
-.Sarah{
-	width:23%;
-	}
-.Sarah img{
-	width:100%;
-	margin-top:2rem;
-	}
+.member1{
+    width: 23%; 
+    position: relative;   
 }
+.member1 img{
+    width: 100%;
+}
+.member{
+    position:absolute;
+    background-color:#839eb5d6;
+    padding: 1rem 0;
+    border-radius: 4px;
+    text-align: center;
+    bottom: -48px;
+    right: 20px;
+    left: 20px;
+}
+.member h4 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #fff;
+    text-align: center;
+}
+.member h4::after{
+    content: "";
+    width: 20%;
+	margin:auto;
+    height: 2px;
+	line-height:2;
+    background: #fff;
+	display:block;
+    margin-top:.5rem;
+}
+.member p{
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #fff;
+}
+.teamicon{
+    margin: 1rem 0;
+}
+.teamicon iconify-icon{
+    color: #eee;
+}
+}
+
+/* finish */
 .frequently{
 	width:100%;
 	background-color: F5F9FC;
@@ -1219,11 +1306,16 @@
 			flex-wrap:wrap;
 			margin:atuo;
 			}
+		.mailname{
+			width:48%;
+		}
 		.mail{
 				width:100%;
+				display:flex;
+				justify-content:space-between;
 			}
-		.mail input{
-			width:48%;
+		.mailname input{
+			width:100%;
 			border:1px solid CED4DA;
 			
 			}
