@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="reset/reset.css">
+		<link rel="stylesheet" href="style/style.css">
+<title></title>
+</head>
+<body>
+	<section class="container">
+		<div class="login">
+			<h1 class="title">FORM</h1>
+			<form>
+				<label>User Name</label>
+				<input type="text" placeholder="Enter Name" id="name">
+				
+				<label>User Email</label>
+				<input type="email" placeholder="Enter Email" id="mail">
+				
+				<label>User Password</label>
+				<input type="password" placeholder="Enter Password" id="password">
+				
+				<button type="submit" id="sub" onclick="myFunction()">SUBMIT</button>
+			</form>
+		</div>
+	</section>
+	<script>
+		let object={
+			name:"Anitha",
+			mail:"anitha2000@gmail.com",
+			password:12345,
+		}
+		function myFunction(event){
+			var name=document.getElementById("name");
+			var mail=document.getElementById("mail");
+			var password=document.getElementById("password");
+			
+			if (object.name==name.value&& object.mail==mail.value&& object.password==password.value)
+			{
+				alert ("sucessful");
+				return false;
+			
+			}
+			else{
+				alert ("invalid");
+				return false;
+			}                                            
+		}
+	</script>
+</body>
+</html>
