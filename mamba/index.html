@@ -39,7 +39,7 @@
 					<div class="mamba">
 						<a href="#">MAMBA</a>
 					</div>
-						 <ul class="d-flex logo">
+						 <ul class="d-flex" id="logo">
 							<li><a href="#Home" style="color:blue;">HOME</a></li>
 							<li><a href="#About">ABOUT</a></li>
 							<li><a href="#Services">SERVICES</a></li>
@@ -48,7 +48,7 @@
 							<li><a href="#Drop Down">DROP DOWN</a></li>
 							<li><a href="#Contact">CONTACT</a></li>
 						</ul>
-						<iconify-icon icon="bi:list"></iconify-icon> 
+						<iconify-icon icon="bi:list" onclick="myFunction()"></iconify-icon> 
 				</div>	
 		</section>
 	</div>
@@ -582,8 +582,22 @@
             </div>			
 	    </div>
 	</div>
-					
-	
+	<script>
+			<!-- let btn=document.getElementById("but"); -->
+			function myFunction(){
+      var logo = document.getElementById("logo");
+	  if(logo.style.display==="" || logo.style.display==="none"){
+	    logo.style.display="block";
+	  }
+	  else if(logo.style.display==="block"){
+	     logo.style.display="none";
+	  }	  
+	  else{
+	     logo.style.display="block";
+	  }
+	 
+   }
+		</script>				
 	
 </body>
 </html>

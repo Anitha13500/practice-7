@@ -68,27 +68,27 @@
 .content iconify-icon{
 	font-size:2rem;
 }
-.logo ul{
+#logo ul{
 	display:flex;
 }
-.logo ul,li{
+#logo ul,li{
 	list-style:none;
 	padding:0.5rem;
 		
 }
-.logo a{
+#logo a{
 	text-decoration:none;
 	font-size:1rem;
 	color:gray;
 	}
-.logo a:hover{
+#logo a:hover{
 	color:blue;
 }
-.logo{
+#logo{
 	display:none;
 }
 @media(min-width:1024px){
-	.logo{
+	#logo{
 		display:block;
 		display:flex;
 	}
@@ -613,6 +613,10 @@
 	background-color:FFFFFF;
 	/* padding:3rem; */
 }
+.services{
+	padding-top:3rem;
+	/* padding-bottom:3rem; */
+}
 .services h1{
 	font-size:2.5rem;
 	text-align:center;
@@ -624,6 +628,7 @@
 	/* background-color:green; */
 	text-align:center;
 	align-items:center;
+	padding-bottom:3rem;
 	
 }
 .perspiciatis1{
@@ -699,7 +704,6 @@
 	
 	.perspiciatis{
 	width:100%;
-	/* background-color:green; */
 	text-align:center;
 	align-items:center;
 	display:flex;
@@ -710,20 +714,6 @@
 .perspiciatis1{
 	width:32%;
 	}
-	/* .perspiciatis1 iconify-icon { */
-	/* font-size:2rem; */
-	/* height:60px; */
-	/* width:60px; */
-	/* border:1px solid F1F7FB; */
-	/* background-color:#F1F7FB; */
-	/* color:blue; */
-	/* display:flex; */
-	/* justify-content:center; */
-	/* align-items:center; */
-	/* border-radius:50%; */
-	/* box-shadow:0px 0px 10px #8888884a; */
-	/* margin:auto; */
-	/* } */
 	.perspiciatis1 p{
 	color:AEAEAE;
 	font-size:1.3rem
@@ -733,17 +723,19 @@
 .Portfolio{
 	width:100%;
 	background-color:F5F9FC;
-	margin-top:3rem;
+	/* padding-top:2rem; */
 }
 .Portfolio1 h1{
 	font-size:2.5rem;
 	text-align:center;
 	color:71879C;
-	padding:2rem;
+	padding-top:3.5rem;
+	
 }
 .Portfolio1 p{
 	font-size:1rem;
 	text-align:center;
+	padding-top:1rem;
 }
 .moni{
 	margin:20px 0px 20px 0px;
@@ -876,6 +868,7 @@
 	font-size:2rem;
 	color:5C768C;
 	text-align:center;
+	padding-top:3.5rem;
 }
 
 .team1 p{
@@ -887,7 +880,7 @@
 	}
 
 .teams{
-	 padding-top:3rem;
+	 /* padding-top:3rem; */
 	 padding-bottom:3rem;
  }
 
@@ -1077,7 +1070,6 @@ margin-top:3rem;
 	color:5C768D;
 	text-align:center;
 	font-weight:900;
-	margin-top:5rem;
 	padding:1rem;
 }
 .duis h2{
@@ -1124,7 +1116,7 @@ margin-top:3rem;
 .addr1 h1{
 	font-size:2rem;
 	color:5C768D;
-	margin-top:3rem;
+	margin-top:3.5rem;
 	text-align:center;
 }
 .newyork{
