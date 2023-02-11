@@ -21,6 +21,7 @@
 	bottom:0;
 	z-index:1;
 	background-color:white;
+	box-shadow:0 5px 15px rgb(0 0 0 /10%)
 }
 .head{
 	padding-top:0.7rem;
@@ -41,6 +42,7 @@
 }
 .top{
 	border-bottom:0.1rem solid gray;
+	
 }
 .face{
 	display:none;
@@ -335,7 +337,7 @@
 .aboutus  h1{
 	font-size:2rem;
 	text-align:center;
-	margin-top:7rem;
+	margin-top:3rem;
 	color:5C768D;
 }
 .aboutus p{
@@ -368,8 +370,8 @@
 }
 .aboutus{
 	position:relative;
-	margin:auto;
-	
+	/* margin:auto; */
+	align-items:center;
 }
 .aboimage{
 	position:absolute;
